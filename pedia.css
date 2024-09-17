@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 150px;
+}
+
+.lang {
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    /* padding-top: 10px; */
+}
+
+.eng {
+    left: 20%;
+    top: 15%;
+}
+
+.chinese {
+    right: 20%;
+    top: 15%;
+}
+
+.rush {
+    left: 5%;
+    top: 30%;
+}
+
+.deutsch {
+    right: 5%;
+    top: 30%;
+}
+
+.french {
+    right: 2%;
+    bottom: 45%;
+}
+
+.spanish {
+    left: 2%;
+    bottom: 45%;
+}
+
+.italy {
+    left: 5%;
+    bottom: 30%;
+}
+
+.japan {
+    right: 2%;
+    bottom: 35%;
+}
+
+.port {
+    left: 15%;
+    bottom: 20%;
+}
+
+.arab {
+    right: 15%;
+    bottom: 20%;
+}
+.btn{
+    position: absolute;
+    bottom: 10%;
+    right: 12%;
+    display: flex;
+    margin-left: 10%;
+}
+.btn1{
+    border: 1px solid blue;
+    /* padding: 20px 2px; */
+    height: 35px;
+    width: 400px;
+    text-align: end;
+    /* margin-top: 200px; */
+    /* display: flex; */
+}
+.glass{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 40px;
+}
+.read{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    left: 20%;
+}
+.line{
+    width: 22%;
+    height: 0;
+}
+.reading{
+    text-align: center;
+    padding: 5px 15px;
+    /* font-size: 20px; */
+    width: 400px;
+    height: 30px;
+    color: royalblue;
+}
+
